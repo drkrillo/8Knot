@@ -37,3 +37,6 @@ packages = []
 
 [tool.setuptools.dynamic]
 version = { attr = "metadata.__version__" }
+
+[tool.bandit]
+exclude_dirs = ["tests"]
